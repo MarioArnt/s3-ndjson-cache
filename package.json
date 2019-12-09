@@ -1,0 +1,43 @@
+{
+  "name": "s3-ndjson-cache",
+  "version": "0.9.9",
+  "description": "serialize to ndjson and cache huge javascript objects in S3 bucket ",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -r ts-node/register test/**/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MarioArnt/s3-ndjson-cache.git"
+  },
+  "keywords": [
+    "s3",
+    "aws",
+    "cache",
+    "ndjson",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Mario Arnautou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MarioArnt/s3-ndjson-cache/issues"
+  },
+  "homepage": "https://github.com/MarioArnt/s3-ndjson-cache#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.6",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.15",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.585.0",
+    "ndjson": "^1.5.0"
+  }
+}
