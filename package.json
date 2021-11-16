@@ -37,7 +37,7 @@
     "typescript": "^3.7.3"
   },
   "dependencies": {
-    "aws-sdk": "^2.585.0",
+    "aws-sdk": "^2.814.0",
     "ndjson": "^1.5.0"
   }
 }
